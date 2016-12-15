@@ -8,7 +8,7 @@ dev:
 
     - setup-go-workspace:
 
-        package-dir: github.com/dkassab/hello
+        package-dir: github.com/dkassab/learningGo
 
 
 
@@ -30,7 +30,7 @@ dev:
 
           go version
 
-          go get -u github.com/Masterminds/glide
+          gb get -u github.com/Masterminds/glide
 
           export PATH=$WERCKER_SOURCE_DIR/bin:$PATH
 
