@@ -74,7 +74,7 @@ build:
 
           go version
 
-          go get -u github.com/Masterminds/glide
+          gb get -u github.com/Masterminds/glide
 
           export PATH=$WERCKER_SOURCE_DIR/bin:$PATH
 
