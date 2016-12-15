@@ -13,6 +13,7 @@ func main() {
     data:=[][]string{
 		[]string{"dima","go","4"},
 		[]string{"junaid","go","0"},
+		[]string{"Saeir","go","0"},
     }
     table:=tablewriter.NewWriter(os.Stdout)
     table.SetHeader([]string{"Name","PL", "Level"})
