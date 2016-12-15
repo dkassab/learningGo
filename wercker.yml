@@ -30,7 +30,7 @@ dev:
 
           go version
 
-          gb get -u github.com/Masterminds/glide
+          go get -u github.com/Masterminds/glide
 
           export PATH=$WERCKER_SOURCE_DIR/bin:$PATH
 
@@ -74,7 +74,7 @@ build:
 
           go version
 
-          gb get -u github.com/Masterminds/glide
+          go get -u github.com/Masterminds/glide
 
           export PATH=$WERCKER_SOURCE_DIR/bin:$PATH
 
