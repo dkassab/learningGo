@@ -9,6 +9,7 @@ import (
 func main() {
     fmt.Printf("hello, world\n")
     fmt.Println("مرحبا من ديمة!")
+    fmt.Println("Hello from Abbie")
 
     data:=[][]string{
 		[]string{"dima","go","4"},
